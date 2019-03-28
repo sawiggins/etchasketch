@@ -1,0 +1,81 @@
+/* Stephanie Wiggins */
+
+html, body, main {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+#upper {
+    width: 500px;   
+    margin: auto;
+    padding-bottom: 10px;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    height: 100%;
+    width: 500px;
+    height: 500px;
+    border: 1px black solid;
+    margin: auto;
+    border: 20px #b71b1b solid;
+    border-radius: 10px;
+}
+
+button, #submit {
+    background-color: #b71b1b;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    
+}
+
+button:hover {
+    background-color: #871212;
+}
+
+#changeSize {
+    height: 30px;
+    margin-left: 40px;
+}
+
+form {
+    display: inline;
+    padding-left: 10px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex: 1 1 auto;
+    width: 100%;
+
+}
+
+.cell {
+    flex: 1 1 auto;
+    min-height: 2px;
+    min-width: 2px;
+    height: 100%;
+    border: 1px black solid;
+}
+
+.color {
+    color: #b71b1b;
+}
+
+/* .cell:hover {
+    background-color: red;
+} */

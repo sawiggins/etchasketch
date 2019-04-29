@@ -13,7 +13,7 @@ submit.addEventListener("click", function () {
 });
 
 function createGrid (width) {
-    if (width > 0 && width < 75) {
+    if (width > 0 && width < 76) {
         height = width;
         for (count = 0; count < height; count ++) {
         var row = document.createElement ('div');
@@ -27,7 +27,7 @@ function createGrid (width) {
         };
     }
     else {
-        alert("Please insert a value between 0-75");
+        alert("Please insert a value between 1-75");
     }    
 };
 createGrid (width)
